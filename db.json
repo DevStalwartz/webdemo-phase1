@@ -1,0 +1,34 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "card-title": "Mount Cook National Park, New Zealand",
+      "card-text": "Explore our diverse destination and their unique features",
+      "card-image": "SafariPictures/Mt.Cook New Zealand.jpg"
+    },
+    {
+      "id": "2",
+      "card-title": "Devon England",
+      "card-text": "Experience the finest destination with just a tap of a button",
+      "card-image": "SafariPictures/Devon, England.jpg"
+    },
+    {
+      "id": "3",
+      "card-title": "Loch Lomond & The Trossachs, Scotland",
+      "card-text": "No other place can make you feel like you are on another universe",
+      "card-image": "SafariPictures/Loch Lomond & The Trossachs,Scotland.jpg"
+    },
+    {
+      "id": "4",
+      "card-title": "The Alps, France",
+      "card-text": "Breathtaking scenes waiting your exploration",
+      "card-image": "SafariPictures/The Alps, France.jpg"
+    },
+    {
+      "id": "5",
+      "card-title": "Hossa National Park, Finland",
+      "card-text": "Where else do you want to be this summer if not here!",
+      "card-image": "SafariPictures/Hossa National Park, Finland.jpg"
+    }
+  ]
+}

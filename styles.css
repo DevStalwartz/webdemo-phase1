@@ -1,0 +1,166 @@
+
+* {
+  margin: 2px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+/* Navigation styles */
+nav {
+  background-color: #080808e1;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Search button styles */
+.Search-btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.Search-btn:hover {
+  background-color: #b2f007;
+}
+
+/* Card styles */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid hsl(113, 64%, 53%);
+}
+
+.card-body h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-body a {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.card-body a:hover {
+  background-color: hsl(123, 58%, 44%);
+}
+
+.Contacts {
+  margin-top: 20px;
+}
+
+.Contacts a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+#feedback {
+  margin-top: 30px;
+}
+
+#feedback h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+}
+
+.submit-btn label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.submit-btn input[type="text"],
+.submit-btn input[type="email"],
+.submit-btn textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.submit-btn input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+  background-color: hsl(0, 4%, 5%);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
